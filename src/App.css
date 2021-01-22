@@ -25,7 +25,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #77b3d4;
 }
 
 @keyframes App-logo-spin {
@@ -38,12 +38,9 @@
 }
 
 .MuiOutlinedInput-root {
-
   margin-bottom: 10px;
 }
 
-
 .MuiSelect-select {
-      
-     min-width: 150px !important;
-    }
+  min-width: 150px !important;
+}

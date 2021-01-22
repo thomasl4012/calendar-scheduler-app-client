@@ -5,7 +5,7 @@ import apiHandler from "../api/apiHandler";
 import Signin from "./Dialogs/Signin";
 import Signup from "./Dialogs/Signup";
 import "../styles/NavMain.css";
-
+import AppLogo from "../app-logo.png";
 const NavMain = (props) => {
   const { context } = props;
 
@@ -23,7 +23,7 @@ const NavMain = (props) => {
   return (
     <nav className="NavMain">
       <NavLink exact to="/">
-        Calendar
+        <img style={{ height: "45px" }} src={AppLogo} alt="logo" />
       </NavLink>
       <ul className="nav-list">
         {context.isLoggedIn && (
